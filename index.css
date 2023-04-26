@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #F8F8F8;
+    color: #432000;
+    user-select: none;
+}
+
+#container {
+    width: 20%;
+    min-width: 280px;
+    margin: 10px auto;
+    transform: translateY(10%);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width : 175px;
+    height: 175px;
+}
+
+
+
+input {
+    color: #432000;
+    background-color: #DCE1EB;
+    font-family: 'Raleway', sans-serif;
+    margin: 20px 0;
+    width: 60%;
+    min-width: 200px;
+    padding: 10px;
+    border: 0px solid;
+    border-radius: 10px;
+    text-align: center;
+    font-size: medium;
+}
+
+#add-button {
+    color: #FDFDFD;
+    background-color: #AC485A;
+    font-family: 'Raleway', sans-serif;
+    width: 60%;
+    min-width: 200px;
+    padding: 10px;
+    border: 0px solid;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+#add-button:hover {
+    background-color: #432000;
+    cursor: pointer;
+}
+
+ul {
+    margin: 20px 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+ul li {
+    list-style-type: none;
+    color: black;
+    background-color: #FFFDF8;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 12px;
+    font-size: medium;
+    flex-grow: 1;
+    
+}
+
+ul li:hover {
+    background-color: #FFECC7;
+    cursor: pointer;
+}
