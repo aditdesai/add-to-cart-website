@@ -20,12 +20,23 @@
 <body>
     <div id="container">
         <img src="cat1.jpg">
-        <input type="text" id="input-field" placeholder="Bread">
-        <button id="add-button"> Add to Cart </button>
-        <ul id="shopping-list">
-        </ul>
+
+        <div id="authForm">
+            <input type="email" id="email-field" placeholder="Email" autofocus>
+            <input type="password" id="password-field" placeholder="Password">
+            
+            <button id="login-button"> Login </button>
+        </div>
+        
+        <div id="homePage">
+            <input type="text" id="input-field" placeholder="Bread" autofocus>
+            <button id="add-button"> Add to Cart </button>
+            <ul id="shopping-list">
+            </ul>
+            <button id="logout-button"> Log Out </button>
+        </div>
     </div>
-    <script src="functions.js" type="module"></script>
+    
     <script src="index.js" type="module"></script>
 </body>
 

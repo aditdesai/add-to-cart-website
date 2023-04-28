@@ -19,6 +19,14 @@ html, body {
     align-items: center;
 }
 
+#authForm, #homePage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 img {
     width : 175px;
     height: 175px;
@@ -26,7 +34,7 @@ img {
 
 
 
-input {
+#input-field {
     color: #432000;
     background-color: #DCE1EB;
     font-family: 'Raleway', sans-serif;
@@ -40,19 +48,34 @@ input {
     font-size: medium;
 }
 
-#add-button {
+#email-field, #password-field {
+    color: #432000;
+    background-color: #DCE1EB;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px 0;
+    width: 85%;
+    min-width: 200px;
+    padding: 10px;
+    border: 0px solid;
+    border-radius: 10px;
+    text-align: center;
+    font-size: medium;
+}
+
+#login-button, #add-button, #logout-button {
     color: #FDFDFD;
     background-color: #AC485A;
     font-family: 'Raleway', sans-serif;
     width: 60%;
     min-width: 200px;
+    margin-top: 10px;
     padding: 10px;
     border: 0px solid;
     border-radius: 10px;
     font-size: medium;
 }
 
-#add-button:hover {
+#login-button:hover, #add-button:hover, #logout-button:hover {
     background-color: #432000;
     cursor: pointer;
 }
